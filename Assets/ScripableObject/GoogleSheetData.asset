@@ -1,0 +1,169 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36c42c26cc3e3d94e873638351a9e513, type: 3}
+  m_Name: GoogleSheetData
+  m_EditorClassIdentifier: 
+  rawCsvData: 'Name,Amount,Damage,HP,Missed chance,Sec,WindForce
+
+    Player HP,,,50,,,
+
+    Enemy
+    HP(easy),,,50,50,,
+
+    Enemy HP(normal),,,60,30,,
+
+    Enemy HP(hard),,,70,15,,
+
+    Normal
+    Attack,,8,,,,
+
+    Small Attack,,5,,,,
+
+    Power Throw,,10,,,,
+
+    Double
+    Attack,2,5,,,,
+
+    Heal,,,20,,,
+
+    Time to think,,,,,30,
+
+    Time to Warning,,,,,10,
+
+    Wind
+    Values,,,,,,10
+
+    Normal Enemy Activate <=,,,,,,2
+
+    Hard Enemy Activate
+    >=,,,,,,8'
+  parsedRows:
+  - cells:
+    - Name
+    - Amount
+    - Damage
+    - HP
+    - Missed chance
+    - Sec
+    - WindForce
+  - cells:
+    - Player HP
+    - 
+    - 
+    - 50
+    - 
+    - 
+    - 
+  - cells:
+    - Enemy HP(easy)
+    - 
+    - 
+    - 50
+    - 50
+    - 
+    - 
+  - cells:
+    - Enemy HP(normal)
+    - 
+    - 
+    - 60
+    - 30
+    - 
+    - 
+  - cells:
+    - Enemy HP(hard)
+    - 
+    - 
+    - 70
+    - 15
+    - 
+    - 
+  - cells:
+    - Normal Attack
+    - 
+    - 8
+    - 
+    - 
+    - 
+    - 
+  - cells:
+    - Small Attack
+    - 
+    - 5
+    - 
+    - 
+    - 
+    - 
+  - cells:
+    - Power Throw
+    - 
+    - 10
+    - 
+    - 
+    - 
+    - 
+  - cells:
+    - Double Attack
+    - 2
+    - 5
+    - 
+    - 
+    - 
+    - 
+  - cells:
+    - Heal
+    - 
+    - 
+    - 20
+    - 
+    - 
+    - 
+  - cells:
+    - Time to think
+    - 
+    - 
+    - 
+    - 
+    - 30
+    - 
+  - cells:
+    - Time to Warning
+    - 
+    - 
+    - 
+    - 
+    - 10
+    - 
+  - cells:
+    - Wind Values
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 10
+  - cells:
+    - Normal Enemy Activate <=
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 2
+  - cells:
+    - Hard Enemy Activate >=
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 8

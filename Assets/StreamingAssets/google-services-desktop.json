@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1090621675333",
+    "project_id": "pigvsaunt",
+    "storage_bucket": "pigvsaunt.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1090621675333:android:4306e8840177c9efc9d02c",
+        "android_client_info": {
+          "package_name": "com.phurim.pigvsaunt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1090621675333-mjpnp7bf5umv6k8bjmj3qg63f0l35mjg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.phurim.pigvsaunt",
+            "certificate_hash": "0bb6b24af6ca51d6105e40395d23e02afa1806d5"
+          }
+        },
+        {
+          "client_id": "1090621675333-2vkj0dap1bdbp2mkcbq8ht0ra4mmtt0e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMBx3Xu1r0uNIYghAaTXlqpO6qyBJLP50"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1090621675333-2vkj0dap1bdbp2mkcbq8ht0ra4mmtt0e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

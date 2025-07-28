@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_android_client_id,@string/default_web_client_id">
+  <string name="gcm_defaultSenderId" translatable="false">1090621675333</string>
+  <string name="google_storage_bucket" translatable="false">pigvsaunt.firebasestorage.app</string>
+  <string name="project_id" translatable="false">pigvsaunt</string>
+  <string name="google_api_key" translatable="false">AIzaSyCMBx3Xu1r0uNIYghAaTXlqpO6qyBJLP50</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCMBx3Xu1r0uNIYghAaTXlqpO6qyBJLP50</string>
+  <string name="google_app_id" translatable="false">1:1090621675333:android:4306e8840177c9efc9d02c</string>
+  <string name="default_android_client_id" translatable="false">1090621675333-mjpnp7bf5umv6k8bjmj3qg63f0l35mjg.apps.googleusercontent.com</string>
+  <string name="default_web_client_id" translatable="false">1090621675333-2vkj0dap1bdbp2mkcbq8ht0ra4mmtt0e.apps.googleusercontent.com</string>
+</resources>

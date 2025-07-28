@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 674692319bdc73547bd318ee998dfbc3, type: 3}
+  m_Name: ItemDatabase
+  m_EditorClassIdentifier: 
+  data:
+    PlayerHP:
+      Amount: 
+      Damage: 
+      HP: 50
+      MissedChance: 
+      Sec: 
+      WindForce: 
+    EnemyHP_Easy:
+      Amount: 
+      Damage: 
+      HP: 50
+      MissedChance: 50
+      Sec: 
+      WindForce: 
+    EnemyHP_Normal:
+      Amount: 
+      Damage: 
+      HP: 60
+      MissedChance: 30
+      Sec: 
+      WindForce: 
+    EnemyHP_Hard:
+      Amount: 
+      Damage: 
+      HP: 70
+      MissedChance: 15
+      Sec: 
+      WindForce: 
+    NormalAttack:
+      Amount: 
+      Damage: 8
+      HP: 
+      MissedChance: 
+      Sec: 
+      WindForce: 
+    SmallAttack:
+      Amount: 
+      Damage: 5
+      HP: 
+      MissedChance: 
+      Sec: 
+      WindForce: 
+    PowerThrow:
+      Amount: 
+      Damage: 10
+      HP: 
+      MissedChance: 
+      Sec: 
+      WindForce: 
+    DoubleAttack:
+      Amount: 2
+      Damage: 5
+      HP: 
+      MissedChance: 
+      Sec: 
+      WindForce: 
+    Heal:
+      Amount: 
+      Damage: 
+      HP: 20
+      MissedChance: 
+      Sec: 
+      WindForce: 
+    TimeToThink:
+      Amount: 
+      Damage: 
+      HP: 
+      MissedChance: 
+      Sec: 30
+      WindForce: 
+    TimeToWarning:
+      Amount: 
+      Damage: 
+      HP: 
+      MissedChance: 
+      Sec: 10
+      WindForce: 
+    WindValues:
+      Amount: 
+      Damage: 
+      HP: 
+      MissedChance: 
+      Sec: 
+      WindForce: 10
+    NormalEnemyActivate:
+      Amount: 
+      Damage: 
+      HP: 
+      MissedChance: 
+      Sec: 
+      WindForce: 2
+    HardEnemyActivate:
+      Amount: 
+      Damage: 
+      HP: 
+      MissedChance: 
+      Sec: 
+      WindForce: 8
